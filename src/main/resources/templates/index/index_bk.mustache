@@ -1,0 +1,57 @@
+{{>layouts/header}}
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Article</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/privacy">Privacy</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/terms">Terms</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1>Article 목록</h1>
+      <hr>
+      <p>articles/index.mustache</p>
+      <p>{{msg}}</p>
+    </div>
+
+    <div id="imgtest">
+
+
+        <div >
+            <img src = "/assets/img/home-bg.jpg">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="mb-5 container-fluid">
+      <hr>
+      <p>ⓐ MyBlog ·
+        <a href="#">Privacy</a> · <a href="#">Terms</a>
+      </p>
+    </footer>
+
+{{>layouts/footer}}
